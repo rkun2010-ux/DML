@@ -13,7 +13,7 @@ We generate the collected data $\{X_i, \min (T_i, C_i), \Delta_i\}_{i=1}^n$ thro
 4.  **Censoring Mechanism**: Designed to satisfy the conditional independent assumption. Specifically, the individualized censoring time $C_i$ satisfies:
     $\log C_i = X_i^{\top} \gamma_0 + \epsilon'_i$,
     where $\gamma_0 = (-0.5, 0, 2, 0)^{\top}$, and the error $\epsilon'_i \sim \mathcal{N}(0, 2^2)$ is independent of covariates. 
-5.  **Indicators**: The censoring indicator is $\Delta_i = I(T_i \le C_i)$. We achieve a censoring rate of approximately **50%**.
+5.  **Indicators**: The censoring indicator is $\Delta_i = I(T_i \le C_i)$. We achieve a censoring rate of approximately **40%**.
 6.  **Sample Size**: We set the sample size $n = 500, 1000$.
 
 ---
