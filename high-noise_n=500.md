@@ -1,7 +1,7 @@
 ### Double machine learning simulation results under high-noise situations ($n=500$, 200 replications)
  
 
-| G_Model | f_Model | Covariate | Est_Beta | Bias | ESD | Mean_SE | CP |
+| G_Model | f_Model | Covariate | Est_Beta | Bias | ESD | ESE | CP |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **KM** | **XGB_normal** | X1 | -0.525 | -0.025 | 0.202 | 0.209 | 0.945 |
 | | | X2 | 0.493 | -0.007 | 0.223 | 0.220 | 0.960 |
