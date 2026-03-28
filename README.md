@@ -5,13 +5,13 @@
 We generate the collected data $\{X_i, \min (T_i, C_i), \Delta_i\}_{i=1}^n$ through the following procedure. 
 
 1.  **Survival Time $T_i$**: The survival time is generated as:
-    $$\log T_i = X_i^{\top} \beta_0 + \epsilon_i$$
+    $\log T_i = X_i^{\top} \beta_0 + \epsilon_i,$
     where $\epsilon_i \sim \mathcal{N}(0, 0.5^2)$ are standard normal errors independent of $X_i$. 
 2.  **Covariates**: We consider a situation where the dimension of covariates is fixed as $p=4$, and the vector $X_i = (X_{i1}, \dots, X_{i4})^\top$. Each predictor is drawn independently from a standard uniform distribution: $X_{ij} \sim \mathcal{U}(0, 1)$ for $j=1, \dots, 4$.
 3.  **True Parameters**: We specify the true parameter vector as:
-    $$\beta_0 = (-0.5, 0.5, 0.5, -0.5)^{\top}$$
+    $\beta_0 = (-0.5, 0.5, 0.5, -0.5)^{\top}$.
 4.  **Censoring Mechanism**: Designed to satisfy the conditional independent assumption. Specifically, the individualized censoring time $C_i$ satisfies:
-    $$\log C_i = X_i^{\top} \gamma_0 + \epsilon'_i$$
+    $\log C_i = X_i^{\top} \gamma_0 + \epsilon'_i$,
     where $\gamma_0 = (-0.5, 0, 2, 0)^{\top}$, and the error $\epsilon'_i \sim \mathcal{N}(0, 2^2)$ is independent of covariates. 
 5.  **Indicators**: The censoring indicator is $\Delta_i = I(T_i \le C_i)$. We achieve a censoring rate of approximately **50%**.
 6.  **Sample Size**: We set the sample size $n = 500, 1000$.
