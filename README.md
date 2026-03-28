@@ -21,8 +21,8 @@ We generate the collected data $\{X_i, \min (T_i, C_i), \Delta_i\}_{i=1}^n$ thro
 ## B. Robustness and Sensitivity Evaluation
 
 Recall that the proposed estimation and inference method for $\beta_0$ involves two nuisance functions:
-- (a) $G_0(y,x) := P (\Delta= 1 \mid T = y, X = x)$
-- (b) $f_0(x) := E[\log T \mid X=x]$
+-  $G_0(y,x) := P (\Delta= 1 \mid T = y, X = x)$
+-  $f_0(x) := E[\log T \mid X=x]$
 
 We apply the following alternative estimators for $G_0$ and $f_0$:
 
