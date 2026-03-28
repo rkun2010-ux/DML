@@ -47,7 +47,7 @@ In alignment with the **Double Machine Learning (CF-1)** framework, we implement
 
 ## C. High-noise Settings
 
-All settings are identical to Part A, with the exception that we set **$\epsilon \sim \mathcal{N}(0, 2^2)$** and **$\epsilon' \sim \mathcal{N}(0, 5^2)$** to simulate a high-noise setting.
+All settings are identical to Part A, with the exception that we set **$\epsilon \sim \mathcal{N}(0, 1)$** and **$\epsilon' \sim \mathcal{N}(0, 4^2)$** to simulate a high-noise setting.
 
 Tables 3 and 4 present the simulation results for $n=500$ and $1000$. While the proposed method is negatively affected by the increased variance of error terms, several combinations of nuisance estimators still provide consistent and asymptotically normal final estimators with coverage probabilities near 95%. Overall, these results suggest that although high-noise and small-sample situations bring significant challenges, the proposed method maintains reliable performance.
 
