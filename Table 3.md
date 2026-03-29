@@ -1,4 +1,6 @@
-### Double machine learning simulation results under high-noise situations ($n=1000$, 200 replications)
+### Double machine learning simulation results under high-noise situations ($n=1000$, 200 replications).
+The working models of $G_0$ (G_Model) and $f_0$ (f_Model), average bias (Bias), sample standard deviation (SSD), estimated standard error (ESE) and $95\%$ covering probability (CP) of $\hat{\beta}_n$ for the proposed method.
+
  
 | G_Model | f_Model | Covariate | Bias | ESD | ESE | CP |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
