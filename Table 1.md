@@ -3,7 +3,7 @@
 Survival and censoring times are generated via AFT models: $\log T_i = X_i^{\top} \beta\_0 + \epsilon\_i$ and $\log C\_i = X\_i^{\top} \gamma_0 + \epsilon'\_i$. The covariates are $X\_{ij} \sim \mathcal{U}(0, 1)$ for $j=1, \dots, 4$. 
 The true coefficient vectors are $\beta\_0 = (-0.5, 0.5, 0.5, -0.5)^{\top}$ and $\gamma\_0 = (-0.5, 0, 2, 0)^{\top}$, with random errors $\epsilon\_i \sim \mathcal{N}(0, 0.5^2)$ and $\epsilon'\_i \sim \mathcal{N}(0,2^2)$.
 
-The working models of $G_0$ (G_Model) and $f_0$ (f_Model), average bias (Bias), sample standard deviation (SSD), estimated standard error (ESE) and $95\%$ covering probability (CP) of $\hat{\beta}_n$ for the proposed method.
+The working models of $G_0$ (G_Model) and $f_0$ (f_Model), average bias (Bias), sample standard deviation (SSD), estimated standard error (ESE) and 95% covering probability (CP) of $\hat{\beta}_n$ for the proposed method.
 
 
 | G_Model | f_Model | Covariate | Bias | ESD/SSD | ESE | CP |
