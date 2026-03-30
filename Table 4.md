@@ -6,7 +6,7 @@ The true coefficient vectors are $\beta\_0 = (-0.5, 0.5, 0.5, -0.5)^{\top}$ and 
 The working models of $G_0$ (G_Model) and $f_0$ (f_Model), average bias (Bias), sample standard deviation (SSD), estimated standard error (ESE) and 95% covering probability (CP) of $\hat{\beta}_n$ for the proposed method.
 
  
-| G_Model | f_Model | Covariate | Bias | ESD | ESE | CP |
+| G_Model | f_Model | Covariate | Bias | SSD | ESE | CP |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **KM** | **XGB_normal** | X1 | -0.054 | 0.138 | 0.140 | 0.950 |
 | | | X2 | 0.007 | 0.145 | 0.142 | 0.945 |
